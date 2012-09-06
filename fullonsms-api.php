@@ -33,7 +33,7 @@ function sendFullonSMS($uid, $pwd, $phone, $msg)
   curl_setopt($curl, CURLOPT_URL, "http://sms.fullonsms.com/login.php");
   curl_setopt($curl, CURLOPT_POST, 1);
   curl_setopt($curl, CURLOPT_POSTFIELDS, "MobileNoLogin=".$uid."&LoginPassword=".$pwd."&x=64&y=5&red=");
-  curl_setopt($curl , CURLOPT_PROXY , '10.3.100.211:8080' );
+  //curl_setopt($curl , CURLOPT_PROXY , '10.3.100.211:8080' );
   curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
   curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 2);     
   curl_setopt($curl, CURLOPT_COOKIESESSION, 1);
