@@ -3,7 +3,7 @@ FullonSMS PHP API
 
 Send SMS Via FullonSMS from PHP.  
 
-Tested Working with FullonSMS UI Version 4. Supports upto 160 Characters
+Tested Working with FullonSMS. Supports upto 140 Characters
 
 
 How to
