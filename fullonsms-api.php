@@ -54,7 +54,7 @@ function sendFullonSMS($uid, $pwd, $phone, $msg)
 
    
   // Check for proper login
-  if(!stristr($text,"http://sms.fullonsms.com/landing_page.php")  && !stristr($text,"http://sms.fullonsms.com/home.php?show=contacts") )
+    if(!stristr($text,"http://sms.fullonsms.com/landing_page.php")  && !stristr($text,"http://sms.fullonsms.com/home.php?show=contacts") &&!stristr($text, "http://sms.fullonsms.com/action_main.php") )
   {
     return "invalid login";          
   }
