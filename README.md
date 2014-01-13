@@ -3,7 +3,7 @@ FullonSMS PHP API
 
 Send SMS Via FullonSMS from PHP.  
 
-Tested Working with FullonSMS. Supports upto 140 Characters
+<del>Tested Working with FullonSMS. Supports upto 140 Characters</del> FullOnSms has added captcha verification for login, hence I will need to figure out something to bypass that. Feel free to send pull request for the same!
 
 
 How to
